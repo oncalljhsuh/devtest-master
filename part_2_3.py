@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-CSV_FILE = "./data/report_2_3.csv"
+CSV_FILE = "report_2_3.csv"
 
 df = pd.read_csv(CSV_FILE)
 df.set_index('time', inplace=True)

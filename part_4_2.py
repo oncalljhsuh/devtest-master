@@ -1,6 +1,7 @@
 from checker import check_website_text
 from unittest import mock
 
+
 # example.com will be skipped to request
 def test_check_website_assert_example():
     """ To assert in case of exampl.com """
